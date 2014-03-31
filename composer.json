@@ -1,0 +1,19 @@
+{
+    "name": "itsjustalinkwebdesigns/flickr",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Robert Evans",
+            "email": "robertevans@robertevansmb.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+	    "psr-0": {
+		"Flickr": "src/"
+	    }
+    }
+}
