@@ -10,7 +10,7 @@
 		public function get($params)
 		{
 			$params = implode('&',$params);
-			echo $this->endpoint.$params."<br />";
+			//echo $this->endpoint.$params."<br />";
 			$contents = file_get_contents($this->endpoint.$params);
 			$decode = json_decode($contents);
 			if($decode->stat == "ok")
